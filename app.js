@@ -34,7 +34,7 @@ const fetchPrice = async (ctype) => {
 
   res.innerHTML = `<tr style="background-color:crimson; color:white; font-weight:700">
               <td>Property</td>
-              <td>Symbol/Value</td>
+              <td>Code/Value</td>
             </tr>
             <tr>
               <td>Base</td>
