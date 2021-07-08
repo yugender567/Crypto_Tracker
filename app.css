@@ -1,0 +1,28 @@
+.main {
+  margin-top: 10%;
+}
+.mainClick {
+  margin-top: 5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://www.hdwallback.net/wp-content/uploads/2018/01/Light-Background-Wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #2f4f4b;
+  padding: 20;
+}
+
+h3 {
+  color: navy;
+}
+
+h1 {
+  letter-spacing: 10px;
+  color: #ff4500;
+  width: 500px;
+  border: 15px solid rgb(0, 109, 128);
+  padding: 0 0 10px;
+  margin: 20px;
+}

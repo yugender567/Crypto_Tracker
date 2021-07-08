@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Yugender's Crypto Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1 class="col-md-7 text-center">Crypto Tracker</h1>
+        <h3 class="col-md-7 text-center">By Yugender Rao..!!</h3>
+
+        <div class="col-md-6 row justify-content-center" id="bin">
+          <div class="col-md-10">
+            <form action="" id="SearchForm">
+              <div class="form-row">
+                <div class="col-12 form-group">
+                  <label for="xyz"><b>Coin Type</b></label>
+                  <select name="CoinType" class="form-control" id="xyz">
+                    <!--for drop down box--->
+                    <option value="btc-usd">Bit_coin - USD</option>
+                    <option value="eth-usd">Ethereum - USD</option>
+                    <option value="usdt-usd">Tether - USD</option>
+                    <option value="bnb-usd">Binance_coin - USD</option>
+                    <option value="ada-usd">Cardana - USD</option>
+                    <option value="doge-usd">Doge_coin - USD</option>
+                    <option value="btc-doge">Bit_coin - Doge_coin</option>
+                    <option value="btc-eth">Bit_coin - Ether</option>
+                    <option value="dot-usd">Polkadot - USD</option>
+                    <option value="uni-usd">Uniswap - USD</option>
+                    <option value="sol-usd">Solana - USD</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="col-12 btn btn-success">
+                Get Price
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-9 text-center row justify-content-center">
+          <table
+            class="col-md-7 m-5"
+            border="20px solid grey"
+            style="background-color: white; padding: 60; font-weight: 700"
+            id="abc"
+          ></table>
+        </div>
+
+        <div id="list"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
